@@ -7,3 +7,8 @@ Portfolio untuk keperluan melamar kerja
 - install depedency pada folder client dan server -> 'npm i' pada terminal.
 - jalankan server dengan masuk ke folder server -> 'npm run dev' pada terminal.
 - jalankan web dengan masuk ke folder client -> 'npm start' pada terminal.
+
+## Akun untuk keperluan test
+
+NPM: 19630168  
+Password: password

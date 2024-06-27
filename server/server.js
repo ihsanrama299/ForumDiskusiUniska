@@ -143,8 +143,8 @@ const AdStorage = multer.diskStorage({
 
 const uploadAdImage = multer({ storage: AdStorage });
 
-const accountSid = "AC85c439ed9693fe003032f4d67d5b0b8b";
-const authToken = "64e218799aa071bb36f95cf8f0732982";
+const accountSid = "AC85c439ed9693fe003032f4d67d5b0b8b"; //token expired
+const authToken = "64e218799aa071bb36f95cf8f0732982"; //token expired
 const client = twilio(accountSid, authToken);
 
 function convertPhoneNumber(phoneNumber) {
