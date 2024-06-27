@@ -1,0 +1,11 @@
+.custom-toggle {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}

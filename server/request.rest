@@ -1,0 +1,62 @@
+GET http://localhost:5000/api/users/activity
+
+###
+
+GET http://localhost:5000/api/post/3
+
+###
+
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+    "name": "Usernn",
+    "username": "Usernnn",
+    "password": "password",
+    "email": "admin@gmail.com",
+    "npm": 19630001,
+    "prodi": "Teknik Informatika",
+    "level": "User"
+}
+
+###
+POST http://localhost:5000/api/users/login
+Content-Type: application/json
+
+{
+    "npm": 19630168,
+    "password": "password"
+}
+
+###
+GET http://localhost:5000/api/post/11122222333
+
+
+###
+POST http://localhost:5000/api/post
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjpbeyJfaWQiOiI2NDk2ZTlhNzMyYjY0NTQ4ZTI4NDRlYWQiLCJuYW1lIjoiSWhzYW4gUmFtYWRoYW4iLCJ1c2VybmFtZSI6Imloc2FucmFtYSIsInBhc3N3b3JkIjoiJDJiJDEwJENqWmlNUDlxVkU1Lktpc3MxL1BRWHV3cnNNcWV2eTdnVXFsNEFPYXlQQWw4ZmQ0dHZMT1ouIiwiZW1haWwiOiJpaHNhbnJhbWFkaGFuNTcwQGdtYWlsLmNvbSIsIm5wbSI6MTk2MzAxNjgsInByb2RpIjoiVGVrbmlrIEluZm9ybWF0aWthIiwibGV2ZWwiOiJVc2VyIiwiX192IjowfV0sImlhdCI6MTY4Nzc2MzI1Nn0.z6-0_D-emr-WkgqDQvYwmktget85PiyVcZRwjy-3kf0
+
+{
+    "title": "tesf",
+    "body": "tesf",
+    "category": "ccc",
+    "authId": "6496bd40a35a51f9d2b941dd"
+}
+
+
+###
+GET http://localhost:5000/api/category
+
+
+###
+POST http://localhost:5000/api/category
+Content-Type: application/json
+
+{
+    "name": "Sistem Informasi",
+    "authorId": "6496bd40a35a51f9d2b941dd"
+}
+
+###
+GET http://localhost:5000/api/ad/64b8b34cb7676f785cd4bebd
